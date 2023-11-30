@@ -46,7 +46,9 @@ const Category = () => {
             </div>
             <div className="mt-5 space-y-1">
               <h5 className="text-textSmooth font-semibold">{item.title}</h5>
-              <h5 className="text-red text-[11px]">{item.description}</h5>
+              <h5 className="text-red font-bold text-[11px]">
+                {item.description}
+              </h5>
             </div>
           </div>
         ))}
